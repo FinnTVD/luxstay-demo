@@ -1,0 +1,773 @@
+/*---------------------------------------------
+----------------Phần main----------------------
+-----------------------------------------------*/
+.slide-container {
+    width: 100%;
+}
+
+.slide {
+    margin: 0 -12px;
+}
+
+.slide .slick-arrow {
+    display: none !important;
+}
+
+.slide-item {
+    padding: 0 12px;
+}
+
+.box-img-slide {
+    width: 1296px;
+    height: 291px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slick-dots {
+    list-style: none;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    display: flex !important;
+    gap: 0 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border-radius: 100rem;
+    width: 8px;
+    height: 8px;
+    border: none;
+    outline: none;
+    background-color: #999;
+}
+
+.slick-dots .slick-active button {
+    background-color: #555;
+}
+
+/* welcome */
+
+.welcome {
+    width: 1296px;
+    color: #222222;
+    margin: 44px auto;
+}
+
+.welcome>h3 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 17px;
+}
+
+.welcome p {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.welcome a {
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome a:hover {
+    color: #f65e39
+}
+
+/* address */
+
+
+.address {
+    width: 100%;
+    padding-bottom: 7px;
+}
+
+.address .address-title {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.address .address-intro {
+    color: #555555;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.list-address {
+    margin-left: -8px;
+}
+
+.address-item {
+    height: 309px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #a7a6a6;
+    padding: 0 8px;
+    position: relative;
+}
+
+.address-item .img-address {
+    width: 100%;
+    border-radius: 4px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.address-container {
+    left: 30px;
+    bottom: 30px;
+    position: absolute;
+}
+
+.address-container>h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.address-container>span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.list-address .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.list-address .slick-arrow:hover {
+    color: #f65e39;
+    box-shadow: 0 0 7px -4px 2px rgb(196, 102, 102);
+}
+
+
+.list-address .slick-prev {
+    left: -24px;
+}
+
+.list-address .slick-next {
+    right: -25px;
+}
+
+.slick-address.slick-address-active {
+    opacity: 0.5;
+}
+
+.slick-address.slick-address-active:hover {
+    color: #000;
+}
+
+
+
+/* incentives */
+.incentives {
+    display: block;
+    margin: 68px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.incentives .sp-smart {
+    text-decoration: none;
+    color: #f65e39;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+}
+
+.text-incentives {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 62px;
+    line-height: 35px;
+    margin-bottom: 8px;
+}
+
+.text-incentives a {
+    text-decoration: none;
+    color: #f65e39;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title-text h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #222222;
+}
+
+.title-text p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#list-img-incentives {
+    display: flex;
+    list-style: none;
+    margin: 0 -8px;
+}
+
+#list-img-incentives li {
+    padding: 0 8px;
+}
+
+
+.img-incentives {
+    width: 100%;
+    height: 184px;
+    display: block;
+}
+
+.img-incentives img {
+    width: 100%;
+    height: 184px;
+    border-radius: 10px;
+}
+
+/* ---------------------------------------------------------- */
+
+#suggest {
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+#suggest h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #222222;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+#suggest p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+
+/* .menu-suggest{
+    display: flex;
+    gap:0 16xp;
+} */
+
+.slide-apartment {
+    width: 312px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-apartment {
+    width: 308px;
+    height: 195px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-apartment {
+    display: flex;
+    width: 308px;
+    height: 74px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.content-apartment:hover .sub-color {
+    color: #f65e39;
+}
+
+.sub-apartment {
+    color: #555555;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 12px 0;
+}
+
+.sub-color {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(21, 27, 38);
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.menu-suggest .slick-arrow {
+    position: absolute;
+    top: 23.5%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.menu-suggest .slick-arrow:hover {
+    color: #f65e39;
+    box-shadow: 0 0 7px -4px 2px rgb(196, 102, 102);
+}
+
+.menu-suggest .slick-prev {
+    left: -30px;
+}
+
+.menu-suggest .slick-next {
+    right: -15px;
+}
+
+.slick-suggest.slick-suggest-active {
+    opacity: 0.5;
+}
+
+.slick-suggest.slick-suggest-active:hover {
+    color: #000;
+}
+
+
+/* ----------------------------------------------------------------
+---------------------GỢI Ý KHÁM PHÁ---------------------- 
+------------------------------------------*/
+
+#discover {
+    width: 100%;
+    display: block;
+    height: 349px;
+    margin-bottom: 68px;
+}
+
+#title-discover {
+    height: 62px;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+#title-discover h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #222222;
+    line-height: 30px;
+}
+
+#title-discover p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    display: block;
+    line-height: 24px;
+}
+
+.list-post-discover {
+    margin-left: -8px;
+}
+
+.post-discover {
+    margin: 0 8px;
+    background-size: cover;
+    background-image: url(./img/loading-img.svg);
+    height: 264px;
+    cursor: pointer;
+}
+
+.post-header {
+    height: 159px;
+    display: flex;
+}
+
+.text-post-header {
+    background-color: #c8c8c1;
+    display: block;
+    width: 214px;
+    height: 24px;
+    margin-top: 30px;
+    margin-left: 24px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.text-post-header:hover {
+    background-color: #555;
+}
+
+
+.post-header a {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #fff;
+    text-decoration: none;
+    line-height: calc(24 / 12);
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    height: 105px;
+}
+
+.post-footer a {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: calc(28 / 19);
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 50px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.list-post-discover .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.list-post-discover .slick-arrow:hover {
+    color: #f65e39;
+    box-shadow: 0 0 7px -4px 2px rgb(196, 102, 102);
+}
+
+.list-post-discover .slick-prev {
+    left: -24px;
+}
+
+.list-post-discover .slick-next {
+    right: -25px;
+}
+
+.slick-discover.slick-discover-active {
+    opacity: 0.5;
+}
+
+.slick-discover.slick-discover-active:hover {
+    color: #000;
+}
+
+
+/* Tutorial */
+
+#tutorial {
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+#list-tutorial {
+    display: flex;
+    width: calc(1296px - 64px);
+    gap: 16px;
+}
+
+.img-tutorial img {
+    margin-top: 16px;
+    width: 100%;
+    height: 137px;
+    cursor: pointer;
+}
+
+/* Luxstay */
+
+#container-luxstay {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+#luxstay {
+    width: 100%;
+    height: 591px;
+}
+
+#luxstay svg {
+    width: 343px;
+    height: 70px;
+    margin-bottom: 18px;
+}
+
+#luxstay>h2 {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 0 24.9px;
+}
+
+#luxstay>img {
+    margin-bottom: 18px;
+}
+
+#luxstay>p {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+
+#list-app {
+    margin-top: 72px;
+    display: flex;
+}
+
+#qr {
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    text-align: center;
+    align-items: center;
+    margin-right: 44px;
+}
+
+#qr img {
+    margin-top: 12px;
+    width: 154px;
+    height: 154px;
+}
+
+#box-app {
+    width: 448px;
+    height: 180px;
+    display: flex;
+}
+
+#box-app .app1 {
+    width: 200px;
+}
+
+#box-app .app .appstore {
+    margin-right: 36px;
+    margin-bottom: 36px;
+}
+
+#box-app .app {
+    margin-top: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+#box-img-smart {
+    width: 100%;
+    height: 591px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#box-img-smart img {
+    width: 100%;
+    height: 591px;
+}
+
+/* -------------------------------------- */
+/* Phần footer*/
+
+#footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+#container-ft {
+    width: 100%;
+    display: block;
+}
+
+#list-ft {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#list-ft .box-ft {
+    width: 100%;
+    height: 374px;
+    padding-top: 5px;
+}
+
+#list-ft .box-ft:not(:first-child) {
+    padding-left: 8px;
+}
+
+
+#box-img-ft {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#box-mess-ft {
+    display: flex;
+    width: 100%;
+}
+
+.mess-call {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#box-mess-ft i {
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+#box-mess-ft a {
+    color: #222222;
+    text-decoration: none;
+}
+
+#box-mess-ft a:hover {
+    color: #f65e39;
+}
+
+#box-call-ft {
+    display: flex;
+}
+
+#box-call-ft i {
+    margin-top: 20px;
+    margin-right: 12px;
+    font-size: 32px;
+    border-bottom: 2px solid #d1d1d1;
+}
+
+#box-call-ft a {
+    color: #222222;
+    text-decoration: none;
+}
+
+#box-call-ft a:hover {
+    color: #f65e39;
+}
+
+.box-ft>h3 {
+    color: #000;
+    font-weight: bold;
+    line-height: 17.5px;
+    margin: 0 0 20px;
+    font-size: 14px;
+}
+
+.box-ft p a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.box-ft p:hover a {
+    color: #f65e39;
+}
+
+#qr-app-ft {
+    display: flex
+}
+
+#qr-ft {
+    width: 91px;
+    height: 91px;
+    border: 1px solid #e9e3e3;
+    text-align: center;
+    margin-right: 28px;
+}
+
+#qr-ft img {
+    width: 65px;
+    height: 65px;
+    margin-top: 12.5px;
+}
+
+#app-ft img {
+    width: 103px;
+    height: 32px;
+    display: block;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.box2-footer-top {
+    width: 100%;
+    height: 114px;
+    display: flex;
+    color: #222222;
+    margin: 30px 0 0;
+    justify-content: flex-end;
+}
+
+.box2-footer-top h3 {
+    margin-bottom: 20px;
+}
+
+#secure {
+    width: 100%;
+    text-align: center;
+}
+
+#certifi {
+    width: 100%;
+    text-align: center;
+}
+
+#certifi img {
+    cursor: pointer;
+}
+
+#certifi .ddk {
+    width: 93px;
+    height: 35px;
+}
+
+#certifi .dmca {
+    width: 93px;
+    height: 35px;
+    margin-left: 16px;
+}
+
+#follow {
+    width: 100%;
+    text-align: center;
+}
+
+#follow i {
+    padding-top: 5px;
+    font-size: 28px;
+    margin-right: 16px;
+    cursor: pointer;
+}

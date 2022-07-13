@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+body {
+    background-color: #fff;
+}
+
+#app {
+    overflow: hidden;
+}
+
+.pad-t24 {
+    padding-top: 24px;
+}
+
+.opa {
+    opacity: 60%;
+}
+
+.pad-5 {
+    padding: 0 5px;
+}
+
+.mar-5 {
+    margin: 0 5px;
+}
+
+.mar-5-r {
+    margin-right: 5px;
+}
+
+.mar-5-l {
+    margin-left: 5px;
+}
+
+.mar-8-l {
+    margin-left: 8px;
+}
+
+.mar-16 {
+    margin: 0 16px;
+}
+
+.mar-24-l {
+    margin-left: 24px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.color-slogan {
+    color: rgb(118, 118, 118);
+}
+
+.h-264 {
+    height: 264px;
+}

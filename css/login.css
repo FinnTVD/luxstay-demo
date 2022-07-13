@@ -1,0 +1,240 @@
+.navbar>a>svg:hover {
+    cursor: pointer;
+    fill: #f65e39;
+}
+
+.login-title {
+    background: linear-gradient(90deg, #f65e38 0, #f68a39 51%, #f65e38);
+    width: 100%;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.login__title {
+    width: 1312px;
+    margin: 0 -8px;
+}
+
+.login__title h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.login__title p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.login-content {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.row__content {
+    width: 1312px;
+    height: 672px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col__content {
+    width: calc(429px * 2);
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login__item {
+    width: 429px;
+}
+
+.login__item img {
+    margin-top: 48px;
+}
+
+.login__item h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+    line-height: 23px;
+    margin: 24px 0 14px;
+}
+
+.login__item p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login-account {
+    width: 421px;
+    height: 782px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #bbbaba 1px 1px 4px 1px;
+    border-radius: 10px;
+    color: #222222;
+    margin-left: 8px;
+    margin-top: -110px;
+    background-color: #fff;
+}
+
+.col__account {
+    width: 357px;
+    height: 718px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.col__account h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.col__account>p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.form-input {
+    display: flex;
+    border: 1px solid #e6e6e6;
+    border-radius: 48px;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+}
+
+.input-login {
+    border: none;
+    padding-left: 20px;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    flex-grow: 1;
+    color: 16px;
+}
+
+.form-input i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+form .message {
+    display: block;
+    line-height: 21px;
+    margin-bottom: 32px;
+    color: red;
+}
+
+.input-login::placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+.form-input+.form-input {
+    margin: 53px 0;
+}
+
+.btn-login {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 48px;
+    box-shadow: #f67439 0px 1px 6px 0px;
+    background-size: 200% auto;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #f65e38 0, #f68a39 51%, #f65e38);
+}
+
+.btn-login:hover {
+    background-image: linear-gradient(90deg, #f68a39, #f65e38 70%);
+}
+
+form div {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222222;
+    text-align: center;
+}
+
+form div a {
+    color: #f65e39;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form div a:first-child:hover {
+    color: #222222;
+}
+
+.foget-login {
+    margin: 32px 0 30px;
+}
+
+.account-body {
+    text-align: center;
+}
+
+.account-body>p {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.account-body .login-with {
+    border: 1px solid #e6e6e6;
+    border-radius: 48px;
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.account-body .login-with:hover {
+    color: #f65e38;
+}
+
+.login-with span {
+    flex-grow: 1;
+}
+
+.login-withfb {
+    margin: 48px 0 24px;
+}
+
+.login-withfb i {
+    color: #38589c;
+    margin-right: 20px;
+}
+
+.login-withgg svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+    flex-direction: c;
+}

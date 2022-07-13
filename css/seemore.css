@@ -1,0 +1,64 @@
+.holiday-banner {
+    width: 100%;
+    height: 342px;
+}
+
+.holiday-nav {
+    display: flex;
+    height: 72px;
+    gap: 0 26px;
+}
+
+.holiday-nav a {
+    line-height: 72px;
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.holiday-nav a:hover {
+    color: #f65e39;
+}
+
+.holiday-headline {
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 78px;
+}
+
+.holiday-container {
+    color: #222;
+    padding-bottom: 248px;
+}
+
+.holiday-container h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 24px;
+}
+
+.holiday-container span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+
+.holiday-container p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 16px;
+    line-height: 24px;
+}
+
+.holiday-container a {
+    text-decoration: none;
+    color: #0272ff;
+}

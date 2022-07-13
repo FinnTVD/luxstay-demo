@@ -1,0 +1,244 @@
+* {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container-navbar {
+    height: 37px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-address {
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar-left {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    font-size: 12px;
+    gap: 12px;
+    width: 50%;
+}
+
+.navbar-left>a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.navbar-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.navbar-right-search {
+    font-size: 14px;
+    border-right: 1px solid #e0e0e0;
+    color: #757575;
+    line-height: 36px;
+}
+
+.navbar-right-search>input {
+    border: none;
+    outline: none;
+}
+
+.navbar-right-search>i {
+    padding: 0 12px 0 10px;
+    cursor: pointer;
+}
+
+.navbar-right-login {
+    color: #757575;
+    line-height: 36px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.navbar-right-login>i {
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+.container-title {
+    margin: 0 auto;
+    width: 1140px;
+    height: 146px;
+    display: flex;
+    align-items: center;
+}
+
+.title-menu {
+    width: 40%;
+}
+
+.title-menu>i {
+    font-size: 20px;
+}
+
+.title-brand {
+    width: 20%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.title-brand>a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.title-app {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.title-app>i {
+    font-size: 18px;
+}
+
+.container-category {
+    background-color: #121212;
+    height: 592px;
+}
+
+.category-items {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.category-items>a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.category-items>a:first-child {
+    background-color: #353534;
+}
+
+.category-items>a:hover {
+    background-color: #353534;
+}
+
+.category-address-item {
+    height: 502px;
+    position: relative;
+}
+
+.category-address-item>img {
+    width: 350px;
+    height: 502px;
+    overflow-y: hidden;
+}
+
+.checkin-address {
+    position: absolute;
+    width: 324px;
+    bottom: 20px;
+    left: 20px;
+}
+.checkin-address>span{
+    background-color: #121212;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-size: 10px;
+    padding: 5px 7px;
+}
+.checkin-address .info-address {
+    color: #fff;
+    margin: 12px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.time-checkin{
+    color: #fff;
+    line-height: 22.4px;
+    text-shadow: #000 0px 1px 0px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.list-category-address .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    color: #fff;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.list-category-address .slick-prev {
+    left: 0;
+}
+
+.list-category-address .slick-next {
+    right: 0;
+}
+.list-news{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news-item{
+    height: 444px;
+    width: 353px;
+}
+.news-item-image{
+    position: relative;
+}
+.news-item-image>img{
+    width: 353px;
+    height: 253px;
+}
+.news-item-image>span{
+    position: absolute;
+    background-color: #121212;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 5px 7px;
+    letter-spacing: 2px;
+}
+.news-item-title{
+    font-size: 20px;
+    color: #121212;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0;
+}
+.news-item-content{
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}

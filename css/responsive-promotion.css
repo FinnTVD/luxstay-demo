@@ -1,0 +1,44 @@
+/* Tablet */
+
+@media screen and (min-width:46.25em) and (max-width:63.9375em) {
+    .box-container {
+        width: 100%;
+    }
+
+    .promotion-incentive {
+        margin-bottom: 12px;
+    }
+
+    .promotion-container {
+        width: 100%;
+        padding-bottom: 32px;
+        flex-wrap: wrap;
+    }
+
+    .promotion__item {
+        width: calc(712px / 2);
+        border-radius: 8px;
+        border-bottom: 1px solid rgb(197, 197, 197);
+        border-left: 1px solid rgb(197, 197, 197);
+        border-right: 1px solid rgb(197, 197, 197);
+        box-shadow: 0px 1px 0px 0.5px rgb(206, 205, 205);
+    }
+
+    .promotion__item img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .promotion__item-content {
+        width: 100%;
+    }
+
+    .promotion__item-time {
+        width: 100%;
+    }
+
+    .promotion__item-detail {
+        width: 100%;
+    }
+
+}

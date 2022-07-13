@@ -1,0 +1,130 @@
+
+.box-container {
+    width: 100%;
+    height: auto;
+    margin-top: -42px;
+}
+
+.promotion-title {
+    display: flex;
+    height: 72px;
+    gap: 0 26px;
+}
+
+.promotion-title a {
+    line-height: 72px;
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.promotion-title a:hover {
+    color: #f65e39;
+}
+
+
+/* Incentives */
+
+.promotion-incentive {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    margin-bottom: 30px;
+}
+
+.promotion-incentive__text {
+    line-height: calc(72/48);
+}
+
+.promotion-incentive__text h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.promotion-incentive__text p {
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.promotion-incentive__input .btn-input {
+    width: 310px;
+    height: 48px;
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+
+/* container */
+
+.promotion-container {
+    display: flex;
+    padding-bottom: 296px;
+    gap: 16px;
+    width: 1264px;
+}
+
+.promotion__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.promotion__item img{
+    object-fit: cover;
+    width: 100%;
+    height: 164px;
+}
+
+.promotion__item-content {
+    padding: 16px 24px 32px;
+    height: 245px;
+}
+
+.promotion__item-content p {
+    width: 100%;
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+    margin: 0 0 16px;
+    line-height: 24px;
+}
+
+.promotion__item-time {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    background-color: #f6f6f6;
+    padding: 12px 16px;
+    border: 1px solid #cfcece;
+    border-radius: 4px;
+}
+
+.promotion__item-detail {
+    background-image: linear-gradient(to right, #f65e38 0, #f68a39 51%);
+    width: 100%;
+    height: 48px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 64px;
+    box-shadow: #ecc1ad 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.promotion__item-detail:hover {
+    background-image: linear-gradient(to left, #f65e38 0, #f68a39 51%);
+}
+
+.promotion__item-detail a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: calc(48/16);
+    border-radius: 50px;
+}

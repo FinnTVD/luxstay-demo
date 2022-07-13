@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./css/img/luxstay-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/support.css">
+    <link rel="stylesheet" href="./css/frames.css">
+    <link rel="stylesheet" href="./css/gird-system.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/button-search.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Đặt phòng homestay nhanh chóng, trải nghiệm hạng sang tại Luxstay</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- phần header -->
+        <div class="header-container">
+            <div id="header">
+                <div class="grid-head wide nav">
+                    <div class="navbar l-6 m-12 c-12">
+                        <div class="navbar-container">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <svg version="1.1" viewBox="0 0 50 50" class="svg-icon">
+                                        <path pid="0"
+                                            d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="search-box">
+                                <div class="box bar1">
+                                    <i class="fa-solid fa-magnifying-glass opa pad-5"></i>
+                                    <input type="search" name="search" autocomplete="off" class="icon-search"
+                                        placeholder="Tìm kiếm">
+                                    <div class="border-bar1"></div>
+                                </div>
+                                <div class="box bar2">
+                                    <i class="fa-regular fa-calendar opa pad-5"></i>
+                                    <button>Ngày</button>
+                                    <div class="border-bar2"></div>
+                                </div>
+                                <div class="box bar3">
+                                    <button><i class="fa-solid fa-user-large opa"></i>
+                                        <span class="guest">Số khách</span>
+                                    </button>
+                                    <div class="border-bar3"></div>
+                                </div>
+                                <a class="btn-search" href="./button-search.html">
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                </a>
+                            </div>
+                            <!-- menu-nav tablet -->
+                            <label for="check-close" id="menu-nav">
+                                <i class="fa-solid fa-bars"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="l-6 menu-header">
+                        <ul class="menu-header-left">
+                            <li><a href="#">Guide</a></li>
+                            <li><a href="#">Host</a></li>
+                            <li><a href="#">Đăng ký</a></li>
+                            <li><a href="./login.html">Đăng nhập</a></li>
+                            <label for="check-lang" class="btn-lang">
+                                <img src="./css/img/vi.svg" class="mar-5" alt="">
+                                <span class="mar-5-r">VND</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </label>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <input type="checkbox" hidden name="" id="check-lang">
+                <label for="check-lang" id="overlay"></label>
+                <div id="container-menu-lang">
+                    <div id="menu-lang">
+                        <div>
+                            <a href="">
+                                <img src="./css/img/vi.svg" alt="">
+                                <span>Tiếng Việt</span>
+                            </a>
+                            <a href="">
+                                <img src="./css/img/en.svg" alt="">
+                                <span>English</span>
+                            </a>
+                            <a href="">
+                                <img src="./css/img/ko.svg" alt="">
+                                <span>Korean</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <b>VND</b>
+                                <span>Việt Nam Đồng</span>
+                            </a>
+                            <a href="">
+                                <b>USD</b>
+                                <span>United States Dollar</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu-left-tablet and smart -->
+
+                <input type="checkbox" hidden id="check-close">
+                <label for="check-close" id="overlay-tablet"></label>
+                <label for="check-close" id="menu-nav-left">
+                    <label for="check-close" id="close-nav" class="fa-solid fa-xmark"></label>
+                    <ul id="list-link-nav">
+                        <li></li>
+                        <li><a href="">Guide</a></li>
+                        <li><a href="">Host</a></li>
+                        <li><a href="">Đăng ký</a></li>
+                        <li><a href="">Đăng nhập</a></li>
+                        <li>
+                            <label for="check-lang-tablet" class="btn-lang-left">
+                                <div>
+                                    <img width="24px" height="24px" src="./css/img/vi.svg" class="mar-5" alt="">
+                                    <span class="mar-5-r">VND</span>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+
+                    <!-- lang-tablet -->
+                    <input type="checkbox" hidden id="check-lang-tablet">
+                    <label for="check-lang-tablet" id="lang-tablet">
+                        <a href="">
+                            <img width="16px" height="16px" src="./css/img/vi.svg" alt="">
+                            <span>Tiếng Việt</span>
+                        </a>
+                        <a href="">
+                            <img width="16px" height="16px" src="./css/img/en.svg" alt="">
+                            <span>English</span>
+                        </a>
+                        <a href="">
+                            <img width="16px" height="16px" src="./css/img/ko.svg" alt="">
+                            <span>Korean</span>
+                        </a>
+                        <a href="">
+                            <b>VND</b>
+                            <span>Việt Nam Đồng</span>
+                        </a>
+                        <a href="">
+                            <b>USD</b>
+                            <span>United States Dollar</span>
+                        </a>
+                    </label>
+                </label>
+            </div>
+
+            <div class="header-search">
+                <ul class="grid-head-search wide header-search_nav">
+                    <li class="filter-close">
+                        Hủy phòng linh hoạt
+                        <svg data-v-1b774c77="" version="1.1" viewBox="0 0 20 20"
+                            class="icon--14 icon-close svg-icon svg-fill">
+                            <path pclass="0" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zm5-14.167L10.833 10 15 14.167l-.833.833L10 10.833 5.833 15 5 14.167 9.167 10 5 5.833 5.833 5 10 9.167 14.167 5l.833.833z"
+                                fill="#fff"></path>
+                        </svg>
+                    </li>
+                    <li class="filter-close">
+                        Đặt phòng nhanh
+                        <svg data-v-1b774c77="" version="1.1" viewBox="0 0 20 20"
+                            class="icon--14 icon-close svg-icon svg-fill">
+                            <path pclass="0" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zm5-14.167L10.833 10 15 14.167l-.833.833L10 10.833 5.833 15 5 14.167 9.167 10 5 5.833 5.833 5 10 9.167 14.167 5l.833.833z"
+                                fill="#fff"></path>
+                        </svg>
+                    </li>
+                    <li class="filter-close">
+                        Giá ưu đãi
+                        <svg data-v-1b774c77="" version="1.1" viewBox="0 0 20 20"
+                            class="icon--14 icon-close svg-icon svg-fill">
+                            <path pclass="0" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zm5-14.167L10.833 10 15 14.167l-.833.833L10 10.833 5.833 15 5 14.167 9.167 10 5 5.833 5.833 5 10 9.167 14.167 5l.833.833z"
+                                fill="#fff"></path>
+                        </svg>
+                    </li>
+                    <li class="filter-4">
+                        Loại phòng
+                    </li>
+                    <li class="filter-5">
+                        Giá chỗ ở
+                    </li>
+                    <li class="filter-6">
+                        <span class="count-item--checked"></span>
+                        Thêm bộ lọc
+                        <div class="container-filter">
+                            <div class="list-filter">
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Phòng và giường ngủ</h2>
+                                    <div class="col l-6">
+                                        <span class="filter-items_category">Giường</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right">
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill o-20">
+                                            <path pid="0" fill="none" stroke="#000" d="M5 12h14"></path>
+                                        </svg>
+                                        <span class="filter-items_number">0</span>
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill">
+                                            <path pid="0" fill="none" stroke="#000" d="M12 5v14M5 12h14"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="col l-6">
+                                        <span class="filter-items_category">Phòng ngủ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right">
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill o-20">
+                                            <path pid="0" fill="none" stroke="#000" d="M5 12h14"></path>
+                                        </svg>
+                                        <span class="filter-items_number">0</span>
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill">
+                                            <path pid="0" fill="none" stroke="#000" d="M12 5v14M5 12h14"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="col l-6">
+                                        <span class="filter-items_category">Phòng tắm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right">
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill o-20">
+                                            <path pid="0" fill="none" stroke="#000" d="M5 12h14"></path>
+                                        </svg>
+                                        <span class="filter-items_number">0</span>
+                                        <svg data-v-795b04dc="" version="1.1" viewBox="0 0 24 24"
+                                            class="icon--24 pointer icon-square svg-icon svg-fill">
+                                            <path pid="0" fill="none" stroke="#000" d="M12 5v14M5 12h14"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Tiện ích chung</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Thang máy</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Thang bộ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Phòng họp</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khu vực đổ rác</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lễ tân 24/24</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khu vực hut thuốc</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bãi đổ xe ngoài trời</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bãi đổ xe trong nhà</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bãi đổ xe chung</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bãi đổ ô tô</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả tiện ích chung</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Tiện ích giải trí</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Billiard</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bóng bàn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Câu cá</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sân tennis</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sân thượng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khu vực BBQ với bàn ăn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khu vui chơi trẻ em</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sân/Vườn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bể bơi vô cực</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bể bơi ngoài trời</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bể bơi trong nhà</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả tiện giải trí</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Chăm sóc sức khỏe và Làm đẹp</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gym</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Yoga</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sauna</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Spa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Tiệm làm tóc</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Phòng khám</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Hiệu thuốc</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả chăm sóc sức khỏe và làm đẹp</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Mua sắm & Ăn uống</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Quán cafe</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bar</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Nhà hàng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Trung tâm thương mại</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Cửa hàng lưu niệm</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả mua sắm & ăn uống</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Vị trí</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gần sân golf</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gần bến xe bus</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gần bảo tàng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gần cây ATM</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gần công viên</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả vị trí</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Dịch vụ</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bữa sáng miễn phí</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Đưa đón sân bay</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Cho thuê phương tiện</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Xe đạp miễn phí</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Dịch vụ bán vé</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Giặt là</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gửi đồ trước check-in</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả dịch vụ</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Chung</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Wifi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Internet</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">TV</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Điều hòa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Quạt</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lối đi riêng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy sấy</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bình nóng lạnh</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy giặt</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bột giặt/Nước giặt</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy sấy quần áo</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Phù hợp cho trẻ nhỏ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Cũi cho trẻ nhỏ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bàn làm việc</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bàn là/Bàn ủi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Tủ lạnh</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Giá phơi quần áo</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Dép</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Dụng cụ dọn dẹp</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Cửa sổ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ghế sofa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ổ cắm điện 220V</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ổ cắm điện 110V</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Nước uống miễn phí</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả chung</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Phòng ngủ</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Tủ quần áo</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Móc treo quần áo</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Đệm bổ sung</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bàn trang điểm</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả phòng ngủ</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Phòng tắm</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bồn tắm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Buồng tắm đứng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Toilet</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Đèn sưởi nhà tắm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khăn tắm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Dầu gội, dầu xả</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sữa tắm/Xà phòng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Giấy vệ sinh</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Kem/Bàn chải đánh răng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Mũ tắm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Đồ vệ sinh miễn phí</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Vòi xịt</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả phòng tắm</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Phòng bếp</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bếp điện/Bếp từ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bếp ga</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bếp nướng BBQ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Nồi lẩu</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Nồi cơn điện</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ấm đun nước</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Gia vị nấu ăn cơ bản</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lò nướng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lò vi sóng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy nướng bánh mì</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Dụng cụ nấu ăn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy rửa bát</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Than củi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bát đĩa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ly cốc</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bộ bàn ăn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Giấy ăn</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả phòng bếp</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Thiết bị an toàn</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Còi báo cháy</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bình chữa cháy</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khóa chống trộm</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Két an toàn</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả thiết bị an toàn</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Tiện nghi đặc biệt</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ban công</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Khu vực BBQ riêng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Sân/Vườn riêng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bể bơi riêng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Bãi đỗ xe riêng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ghế massage</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Ghế tantra</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Nhà thông minh</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Hộp y tế</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Máy pha cà phê</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">SmartTV/InternetTV</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Karaoke</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Jacuzzi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Loa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lưới chống muỗi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Playstation</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Xbox</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">Lò sưởi</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả tiện nghi đặc biệt</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="row filter-items">
+                                    <h2 class="col l-12 filter-items_title">Cảnh quan</h2>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View vịnh</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View thành phố</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View biển</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View cảng</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View sông</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View hồ</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View núi đồi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View bể bơi</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View sân vườn</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right start">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View công viên</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="check-item">
+                                            <i class="fa-solid fa-check check--icon"></i>
+                                        </span>
+                                        <span class="filter-items_category">View rừng cây</span>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--hide">
+                                        <span class="filter-item-footer">Ẩn bớt</span>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <div class="col l-12 filter-items-footer filter-item-footer--show">
+                                        <span class="filter-item-footer">Tất cả cảnh quan</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-filter">
+                                <div class="row filter-items">
+                                    <div class="col l-6 filter-items-left">
+                                        <span class="footer-filter--mode filter-delete">Xóa</span>
+                                    </div>
+                                    <div class="col l-6 filter-items-right end">
+                                        <span class="footer-filter--mode filter-apply">Áp dụng</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-hide"></div>
+
+
+        <!-- --Phần main-- -->
+        <div id="main">
+            <div class="grid-head wide">
+                <div class="row no-gutters">
+                    <!--Địa điểm nổi bật -->
+                    <input type="checkbox" hidden name="" id="check-address">
+                    <div class="address">
+                        <p><b>Trước khi đặt phòng, hãy kiểm tra những địa điểm bị hạn chế du lịch trong thời gian
+                                này.</b> Sức khỏe và sự an toàn của cộng đồng luôn được đặt hàng đầu. Vì vậy, vui lòng
+                            làm theo chỉ thị của chính phủ bởi điều đó thực sự cần thiết.</p>
+                        <h2>Lựa chọn những homestay hoàn hảo tại các điểm đến được yêu thích nhất</h2>
+                        <div class="list-address">
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/hanoi.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Hà Nội</h2>
+                                    <span><b>2349</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/hcm.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>TP. Hồ Chí Minh</h2>
+                                    <span><b>2017</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/danang.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Đà Nẵng</h2>
+                                    <span><b>845</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/nhatrang.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Nha Trang</h2>
+                                    <span><b>590</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/hoian.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Hội An</h2>
+                                    <span><b>315</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/vt.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Vũng Tàu</h2>
+                                    <span><b>338</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/dl.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Đà Lạt</h2>
+                                    <span><b>942</b> chỗ ở</span>
+                                </div>
+                            </div>
+                            <div class="address-item">
+                                <a href="#"><img class="img-address" src="./css/img/qn.png" alt=""></a>
+                                <div class="address-container">
+                                    <h2>Quảng Ninh</h2>
+                                    <span><b>202</b> chỗ ở</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="homestay-prominent">
+                        <div class="l-9 m-9 c-12 title-homestay">
+                            <h2>186 homestay nổi bật tại Luxstay</h2>
+                        </div>
+                        <div class="l-3 m-3 c-12 sort-homestay">
+                            <input type="checkbox" hidden name="check-sort" id="check-sort">
+                            <label for="check-sort" class="btn-sort">
+                                <span>Sắp xếp:</span>
+                                <p>Lựa chọn</p>
+                                <i class="sort-icon--down fa-solid fa-angle-down"></i>
+                                <div class="sort-selector">
+                                    <a href="">Giá tăng dần</a>
+                                    <a href="">Giá giảm dần</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <div class="l-2-4 m-6 c-6 pad-t24 items-homestay">
+                            <img class="items-homestay_img" src="./css/img-item/-L31Y0JDnUofm_T89hg7_PD3.jpg" alt="">
+                            <div class="items-homestay_title">
+                                <span>Căn hộ dịch vụ - 2 phòng ngủ</span>
+                                <div class="items-homestay_title-right">
+                                    <svg data-v-ebd93bc0="" version="1.1" viewBox="0 0 14 14"
+                                        class="mr--3 svg-icon svg-fill" style="width: 14px; height: 14px;"
+                                        data-metatip="true">
+                                        <path fill="#ffb025" stroke="none" pid="0"
+                                            d="M14 5.425c0 .13-.073.27-.219.424l-3.054 3.123.724 4.41c.005.042.008.1.008.177 0 .123-.03.228-.088.313a.292.292 0 01-.257.128.658.658 0 01-.336-.106L7 11.812l-3.778 2.082a.69.69 0 01-.336.106c-.118 0-.206-.043-.265-.128a.538.538 0 01-.089-.313 1.5 1.5 0 01.017-.177l.724-4.41L.21 5.849C.07 5.69 0 5.549 0 5.425c0-.217.157-.353.471-.405l4.224-.644L6.588.362C6.694.12 6.832 0 7 0c.168 0 .306.12.412.362l1.893 4.014 4.224.644c.314.052.471.188.471.405z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                    <span style="color: #222;font-size: 12px;">3.5</span>
+                                    <span class="fs-12">(2)</span>
+                                </div>
+                            </div>
+                            <a class="items-homestay_content" href="#">
+                                <svg title="Đặt phòng ngay, không cần chủ nhà phê duyệt" data-v-ebd93bc0=""
+                                    version="1.1" viewBox="0 0 20 20" class="is-instant-book mr--6 svg-icon svg-fill"
+                                    style="width: 20px; height: 20px;">
+                                    <title>Đặt phòng ngay, không cần đợi chủ nhà phê duyệt</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="svgicon_instant_book_a">
+                                            <stop stop-color="#F68A39" offset="0%"></stop>
+                                            <stop stop-color="#F65E39" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle pid="0" fill="url(#svgicon_instant_book_a)" cx="10" cy="10" r="10">
+                                        </circle>
+                                        <path pid="1"
+                                            d="M10.42 15.158l3.037-6.073A.75.75 0 0012.787 8H10V5.177a.75.75 0 00-1.42-.335l-3.037 6.073A.75.75 0 006.213 12H9v2.823a.75.75 0 001.42.335z"
+                                            fill="#FFF"></path>
+                                    </g>
+                                </svg>
+                                <span title="Homestay Vung Tau - 9H">Homestay Vung Tau - 9H</span>
+                            </a>
+                            <p class="items-homestay_price"><b>700,000₫/đêm</b></p>
+                        </div>
+                        <ul class="col l-12 m-12 c-12 homestay-page">
+                            <li><a href="#" class="homestay-page_link homestay-page_link--active">1</a></li>
+                            <li><a href="#" class="homestay-page_link">2</a></li>
+                            <li><a href="#" class="homestay-page_link">3</a></li>
+                            <li><a href="#" class="homestay-page_link">4</a></li>
+                            <li><a href="#" class="homestay-page_link">5</a></li>
+                            <li><a href="#" class="homestay-page_link">...</a></li>
+                            <li><a href="#" class="homestay-page_link">9</a></li>
+                            <li><a href="#" class="homestay-page_link btn-page_link">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="col homestay-page_footer l-12 m-12 c-12">21 - 40 trong số 186 chỗ ở</span>
+                    </div>
+                    <!-------------------------------------------------------->
+                    <!-- --Phần footer-- -->
+                    <div id="footer">
+                        <div id="footer-bottom">
+                            <div id="text-footer-bt">
+                                <p>© 2022 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 0108308449.
+                                    Mọi hành
+                                    vi
+                                    sao
+                                    chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.</p>
+                                <p>Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn
+                                    Kiếm, Hà
+                                    Nội.
+                                    Email: info@luxstay.com, Số điện thoại: 18006586.</p>
+                                <p>Số Giấy chứng nhận đăng ký doanh nghiệp: 0108308449, ngày cấp: 06/06/2018, nơi cấp:
+                                    Sở Kế
+                                    hoạch
+                                    và
+                                    Đầu tư TP Hà Nội</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="call-online">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div id="mess-online">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <input type="checkbox" hidden id="down_up-chat">
+                    <label for="down_up-chat" id="chat-online">
+                        <div id="head-chat">
+                            <div id="text-head-chat">
+                                <div id="mess">
+                                    <i class="fa-solid fa-message mar-5-l"></i>
+                                </div>
+                                CHAT NOW_Hỗ trợ khách hàng
+                            </div>
+                            <label for="down_up-chat" id="down-up">
+                                <div title="Minimize" id="minimize">
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div id="container-chat">
+                            <div id="nav-chat">
+                                <div>
+                                    <img src="./css/img/logo-chat.png" alt="">
+                                </div>
+                                <div id="title-chat">
+                                    <p>Chăm sóc khách hàng</p>
+                                    <span>Customer Service</span>
+                                </div>
+                            </div>
+                            <div id="frame-chat"></div>
+                            <div id="footer-chat">
+                                <input type="text" placeholder="  Hãy nhập tin nhắn để chat">
+                                <div id="ft-bottom-chat">
+                                    <a href="">Tùy chọn</a>
+                                    <a href="">Đăng nhập</a>
+                                    <img src="./css/img/cs.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<!-- <script src="./slick.js"></script> -->
+<script src="./app.js"></script>
+
+</html>
